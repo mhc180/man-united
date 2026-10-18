@@ -4,22 +4,32 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Manchester United - Home</title>
+        <link rel="icon" type="image/x-icon" href="/images/crest.jpg">
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
     <body>
-        <h1>Manchester United</h1>
-        <div id="navbar"></div>
-        <script>
-        fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-            document.getElementById('navbar').innerHTML = data;
-            });
-        </script>
+        <header>
+            <h1 class="bg-red-700 text-yellow-300">Manchester United</h1>
+            <div id="navbar"></div>
+            <script>
+                fetch('components/navbar.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('navbar').innerHTML = data;
+                    });
+            </script>
+        </header>        
         
         <p>This is a fan made website</p>
-    </body>
-    <footer>
-        
-    </footer>
+
+        <div id="footer"></div>
+        <script>
+            fetch('components/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById('footer').innerHTML = data;
+                });
+        </script>       
+    </body>   
 </html>
