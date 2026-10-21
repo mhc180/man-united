@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.page-title {
+    @apply bg-red-700 text-yellow-300 text-center font-extrabold text-4xl pt-3;
+}
+
+th {
+    @apply border p-3 bg-red-700 text-yellow-400;
+}
+
+td {
+    @apply border p-3 text-center;
+}
+
+td img {
+    @apply w-32 h-32 object-cover mx-auto;
+}

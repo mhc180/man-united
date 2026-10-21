@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manchester United - Managers</title>
+        <link rel="icon" type="image/x-icon" href="/images/crest.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="page-title">Managers</h1>
+            <div id="navbar"></div>
+            <script>
+                fetch('components/navbar.html')
+                    .then(response => response.text())
+                    .then(data => {
+                    document.getElementById('navbar').innerHTML = data;
+                    });
+            </script>
+        </header>        
+        
+        <div class="overflow-x-auto px-4">
+            <table class="w-full border-collapse border border-grey-300 mt-3 mb-2">
+                <thead>
+                    <th class="table-header">Image</th>
+                    <th class="table-header">Name</th>
+                    <th class="table-header">Nation</th>
+                    <th class="table-header">From</th>
+                    <th class="table-header">To</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/managers/carrick.jpg"></td>
+                        <td>Michael Carrick</td><td>England</td><td>2026</td><td>-</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/fletcher.jpg"></td>
+                        <td>Darren Fletcher<br><span class="smit">(Interim)</span></td><td>England</td><td>2026</td><td>2026</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/amorim.jpg"></td>
+                        <td>Ruben Amorim</td><td>Portugal</td><td>2024</td><td>2026</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/vanNistelrooy.jpg"></td>
+                        <td>Ruud van Nistelrooy <br><span class="smit">(Interim)</span></td><td>Netherlands</td><td>2024</td><td>2024</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/tenHag.jpg"></td>
+                        <td>Erik ten Hag</td><td>Netherlands</td><td>2022</td><td>2024</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/rangnick.jpg"></td>
+                        <td>Ralf Rangnick <br><span class="smit">(interim)</span></td><td>Germany</td><td>2021</td><td>2022</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Carrick.jpg"></td>
+                        <td>Michael Carrick <br><span class="smit">(caretaker)</span></td><td>England</td><td>2021</td><td>2021</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Solskjaer.jpg"></td>
+                        <td>Ole Gunnar Solskjær</td><td>Norway</td><td>2018</td><td>-</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Mourinho.jpg"></td>
+                        <td>José Mourinho</td><td>Portugal</td><td>2016</td><td>2018</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/vanGaal.jpg"></td>
+                        <td>Louis van Gaal</td><td>Netherlands</td><td>2014</td><td>2016</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Giggs.jpg"></td>
+                        <td>Ryan Giggs <br><span class="smit">(caretaker)</span></td><td>Wales</td><td>2014</td><td>2014</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Moyes.jpg"></td>
+                        <td>David Moyes</td><td>Scotland</td><td>2013</td><td>2014</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Ferguson.jpg"></td>
+                        <td>Alex Ferguson</td><td>Scotland</td><td>1986</td><td>2013</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Atkinson.jpg"></td>
+                        <td>Ron Atkinson</td><td>England</td><td>1981</td><td>1986</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Sexton.jpg"></td>
+                        <td>Dave Sexton</td><td>England</td><td>1977</td><td>1981</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Docherty.jpg"></td>
+                        <td>Tommy Docherty</td><td>Scotland</td><td>1972</td><td>1977</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/O'Farrell.jpg"></td>
+                        <td>Frank O'Farrell</td><td>Ireland</td><td>1971</td><td>1972</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Busby.jpg"></td>
+                        <td>Matt Busby</td><td>Scotland</td><td>1970</td><td>1971</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/McGuinness.jpg"></td>
+                        <td>Wilf McGuinness</td><td>England</td><td>1969</td><td>1970</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Murphy.jpg"></td>
+                        <td>Jimmy Murphy</td><td>Wales</td><td>1958</td><td>1958</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Busby.jpg"></td>
+                        <td>Matt Busby</td><td>Scotland</td><td>1945</td><td>1969</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Crickmer.jpg"></td>
+                        <td>Walter Crickmer</td><td>England</td><td>1937</td><td>1945</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Duncan.jpg"></td>
+                        <td>Scott Duncan</td><td>Scotland</td><td>1932</td><td>1937</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Crickmer.jpg"></td>
+                        <td>Walter Crickmer</td><td>England</td><td>1931</td><td>1932</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Bamlett.jpg"></td>
+                        <td>Herbert Bamlett</td><td>England</td><td>1927</td><td>1931</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Hilditch.jpg"></td>
+                        <td>Lal Hilditch</td><td>England</td><td>1926</td><td>1927</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Chapman.jpg"></td>
+                        <td>John Chapman</td><td>Scotland</td><td>1921</td><td>1926</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Robson.jpg"></td>
+                        <td>Jack Robson</td><td>England</td><td>1914</td><td>1921</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Bentley.jpg"></td>
+                        <td>John Bentley</td><td>England</td><td>1912</td><td>1914</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Mangnall.jpg"></td>
+                        <td>Ernest Mangnall</td><td>England</td><td>1903</td><td>1912</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/West.jpg"></td>
+                        <td>James West</td><td>England</td><td>1900</td><td>1903</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Albut.jpg"></td>
+                        <td>A.H. Albut</td><td>England</td><td>1892</td><td>1900</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/managers/Unknown.jpg"></td>
+                        <td>Unknown</td><td>Unknown</td><td>1878</td><td>1892</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="footer"></div>
+        <script>
+            fetch('components/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById('footer').innerHTML = data;
+                });
+        </script>       
+    </body>   
+</html>
